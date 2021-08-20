@@ -6,16 +6,16 @@ import PostPage from './../views/PostPage';
 Vue.use(VueRouter);
 
 const routes = [
-    {
-        path: '/',
-        component: MainPage,
-    },
-    { 
-        path: '/:id', 
-        component: PostPage 
-    }
+  {
+    path: '/',
+    component: MainPage,
+  },
+  { 
+    path: '/:id', 
+    component: PostPage 
+  }
 ];
 
 export const router = new VueRouter({
-    routes
+  routes
 });

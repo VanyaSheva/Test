@@ -94,12 +94,13 @@ export default {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      cursor: pointer;
       &_item {
         display: flex;
         align-items: center;
         justify-content: center;
         width: fit-content;
-        min-width: 46%;
+        min-width: 43%;
         position: relative;
         margin-bottom: 10px;
         background-color: #95c221;
@@ -107,6 +108,9 @@ export default {
         padding: 5px 10px;
         text-align: center;
         border: 1px solid #4d611f;
+        p{
+          word-break: break-all;
+        }
       }
     }
   }
